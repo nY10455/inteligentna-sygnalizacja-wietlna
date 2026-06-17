@@ -1,3 +1,4 @@
+```mermaid
 graph TD
     A([Uruchomienie systemu skrzyżowania]) --> B[Odczyt danych z czujników]
     B --> C{Pojazd uprzywilejowany?}
@@ -17,3 +18,4 @@ graph TD
     J --> K([Powiadomienie Centrum Sterowania])
     
     I -- Nie --> B
+```
